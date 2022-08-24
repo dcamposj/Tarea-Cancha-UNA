@@ -7,16 +7,19 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
-
+<?import javafx.scene.text.Font?>
 
 <HBox alignment="CENTER" minHeight="460.0" minWidth="600.0" spacing="20.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cr.ac.una.pz.cancha.LoginController">
    <children>
       <VBox alignment="CENTER_LEFT" spacing="20.0">
          <children>
             <Label text="Login">
-               <padding>
+               <VBox.margin>
                   <Insets bottom="50.0" />
-               </padding>
+               </VBox.margin>
+               <font>
+                  <Font size="26.0" />
+               </font>
             </Label>
             <Label text="Usuario" />
             <TextField fx:id="txtUsuarioLogin" maxWidth="200.0" promptText="digite su usuario" />
@@ -40,7 +43,10 @@
          <children>
             <VBox alignment="BOTTOM_LEFT" spacing="20.0">
                <children>
-                  <Label text="Registro: Hacer una cuenta nueva" />
+                  <Label text="Registro: Hacer una cuenta nueva">
+                     <font>
+                        <Font size="24.0" />
+                     </font></Label>
                   <Label text="Usuario" />
                   <TextField fx:id="txtUsuarioNuevo" maxWidth="200.0" promptText="digitar usuario nuevo" />
                   <Label text="Email" />
