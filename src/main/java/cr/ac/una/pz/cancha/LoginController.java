@@ -7,10 +7,10 @@ package cr.ac.una.pz.cancha;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
-import javafx.scene.control.Hyperlink;
 import javafx.scene.control.TextField;
 
 /**
@@ -27,7 +27,15 @@ public class LoginController implements Initializable {
     @FXML
     private Button btnLogin;
     @FXML
-    private Hyperlink hypRegistro;
+    private TextField txtUsuarioNuevo;
+    @FXML
+    private TextField txtEmailNuevo;
+    @FXML
+    private TextField txtContraNueva1;
+    @FXML
+    private TextField txtContraNueva2;
+    @FXML
+    private Button btnRegistrar;
 
     /**
      * Initializes the controller class.
@@ -43,8 +51,7 @@ public class LoginController implements Initializable {
     }
 
     @FXML
-    private void onActionRegistrar() throws IOException {
-        App.setRoot("registro");
+    private void onActionRegistrar(ActionEvent event) {
     }
     
 }
