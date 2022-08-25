@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<HBox alignment="CENTER" minHeight="460.0" minWidth="600.0" spacing="20.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cr.ac.una.pz.cancha.LoginController">
+<HBox fx:id="PantallaInicio" alignment="CENTER" minHeight="420.0" minWidth="650.0" spacing="20.0" styleClass="PantallaInicio" stylesheets="@CSS.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cr.ac.una.pz.cancha.LoginController">
    <children>
       <VBox alignment="CENTER_LEFT" spacing="20.0">
          <children>
