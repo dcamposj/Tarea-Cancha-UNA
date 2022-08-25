@@ -19,3 +19,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     -fx-font-weight: bold;
     
 }
+#Fondo{
+    -fx-background-color:linear-gradient(#3333ff, #0000ff, #003399,#000066 );
+}
