@@ -22,3 +22,48 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 #Fondo{
     -fx-background-color:linear-gradient(#3333ff, #0000ff, #003399,#000066 );
 }
+
+#btnLogin{
+    -fx-background-color: #00cccc;
+    -fx-text-fill: #000000;
+    -fx-font-size: 12px;
+    -fx-font-family: arial;
+    -fx-font-weight: bold;
+}
+#btnRegistrar{
+    -fx-background-color: #00cccc;
+    -fx-text-fill: #000000;
+    -fx-font-size: 12px;
+    font-family: arial;
+    -fx-font-weight: bold;
+}
+
+#btnLogin:hover{
+    -fx-background-color: #99ffff;
+    -fx-text-fill: #000000;
+    -fx-font-size: 14px;
+    -fx-font-family: arial;
+    -fx-font-weight: bold;
+}
+#btnLogin:pressed{
+    -fx-background-color: #99ffff;
+    -fx-text-fill: #000000;
+    -fx-font-size: 14px;
+    -fx-font-family: arial;
+    -fx-font-weight: bold;
+}
+
+#btnRegistrar:hover{
+    -fx-background-color: #99ffff;
+    -fx-text-fill: #000000;
+    -fx-font-size: 14px;
+    -fx-font-family: arial;
+    -fx-font-weight: bold;
+}
+#btnRegistrar:pressed{
+    -fx-background-color: #99ffff;
+    -fx-text-fill: #000000;
+    -fx-font-size: 14px;
+    -fx-font-family: arial;
+    -fx-font-weight: bold;
+}
