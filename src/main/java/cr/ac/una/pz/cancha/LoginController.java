@@ -11,6 +11,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import javafx.scene.control.SplitPane;
 import javafx.scene.control.TextField;
 
 /**
@@ -36,6 +37,8 @@ public class LoginController implements Initializable {
     private TextField txtContraNueva2;
     @FXML
     private Button btnRegistrar;
+    @FXML
+    private SplitPane PantallaInicio;
 
     /**
      * Initializes the controller class.

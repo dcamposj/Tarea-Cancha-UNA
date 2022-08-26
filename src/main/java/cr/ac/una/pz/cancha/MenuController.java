@@ -10,6 +10,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import java.net.URL;
+import javafx.scene.layout.VBox;
 import javafx.scene.web.WebEngine;
 import javafx.scene.web.WebView;
 
@@ -22,10 +23,10 @@ public class MenuController implements Initializable {
 
     @FXML
     private WebView webView;
-    @FXML
-    private Button btnCargar;
     
     private WebEngine engine;
+    @FXML
+    private VBox Fondo;
 
     /**
      * Initializes the controller class.
@@ -36,9 +37,5 @@ public class MenuController implements Initializable {
         engine.load("https://www.google.es/maps/?hl=es");
     }    
 
-    @FXML
-    private void cargarContenido(ActionEvent event) {
-        
-    }
     
 }
